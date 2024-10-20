@@ -80,18 +80,3 @@ The model provides multiple visualization formats to present data clearly, inclu
 
 These visual insights make it easier for investors to interpret complex data and identify trends at a glance.
 
-## Contributing
-We welcome contributions to enhance the functionality and features of this project. If you're interested in contributing:
-
-1. **Fork the Repository**: Click on the "Fork" button in the top right corner of the repository page to create your own copy of the project.
-
-2. **Create a New Branch**: Use a descriptive name for your branch to identify the feature or fix you're working on.
-
-3. **Make Your Changes**: Implement your feature or fix in your local copy of the project.
-
-4. **Commit Your Changes**: Write a clear commit message explaining your changes.
-
-5. **Push to the Branch**: Push your changes to your forked repository.
-
-6. **Create a Pull Request**: Submit your changes for review by creating a pull request. This action allows project maintainers to review your contributions and merge them into the main project.
-
