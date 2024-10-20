@@ -95,14 +95,3 @@ We welcome contributions to enhance the functionality and features of this proje
 
 6. **Create a Pull Request**: Submit your changes for review by creating a pull request. This action allows project maintainers to review your contributions and merge them into the main project.
 
-## License
-This project is licensed under the MIT License. Please refer to the LICENSE file for more information regarding the terms of use.
-
-## Acknowledgments
-- **Inspiration**: Derived from various market analysis tools and financial modeling techniques that aim to empower investors
-
----
-
-### Notes:
-- Make sure to replace all placeholder text (like `yourusername` and `your.email@example.com`) with your actual information.
-- You can further personalize sections to reflect any specific aspects of your project or additional features you may have.
