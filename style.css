@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stocks Market Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for the header and title */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://editor.analyticsvidhya.com/uploads/91867Screenshot%20(125).png'); /* Replace with your image URL */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+        }
+
+        header {
+            background-color: ba(51, 51, 51, 0.8); /* Dark background with transparency */
+            color: rgb(10, 9, 9); /* White text color */
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em; /* Large title */
+            margin: 0; /* Remove margin */
+            text-transform: uppercase; /* Make title uppercase */
+        }
+
+        nav ul {
+            list-style-type: none; /* Remove default list styles */
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline; /* Inline items */
+            margin: 0 15px; /* Spacing between items */
+        }
+
+        nav ul li a {
+            color:rgb(14, 13, 13); /* White text color for links */
+            text-decoration: none; /* Remove underline */
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        main {
+            padding: 20px; /* Padding for main content */
+            text-align: center; /* Center the text */
+            color: #333; /* Dark text color for main content */
+        }
+
+        button {
+            background-color: #4CAF50; /* Green button background */
+            color: white; /* White button text */
+            padding: 10px 20px; /* Button padding */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor */
+        }
+
+        button:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+
+        footer {
+            text-align: center; /* Center footer text */
+            padding: 20px; /* Padding for footer */
+            background-color: ba(51, 51, 51, 0.8); /* Dark background with transparency */
+            color: rgb(16, 16, 16); /* White text color */
+            position: relative; /* Relative positioning */
+            bottom: 0; /* Position at the bottom */
+            width: 100%; /* Full width */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Stock Market Predictor</h1>
+        <nav>
+            <ul>
+            <li><a href="login.html">Login Here</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h2>Your journey to smarter investments starts here!</h2>
+            <button onclick="location.href='register.html'">Get Started</button>
+        </section>
+        <section id="features">
+            <h3>Features</h3>
+            <p>Learn how our predictions can help you invest wisely.</p>
+            <!-- Add more details or features -->
+        </section>
+        <section id="testimonials">
+            <h3>User Testimonials</h3>
+            <!-- Add testimonials here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Stocks Market Predictor. All Rights Reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

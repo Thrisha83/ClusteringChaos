@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Stocks Market Prediction</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://g.foolcdn.com/editorial/images/518050/stock-market-buy.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white; /* Set default text color to white */
+        }
+
+        header {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact-section {
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            width: 80%; /* Width can be adjusted */
+        }
+
+        h2 {
+            margin-top: 0; /* Remove top margin for h2 */
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input, textarea {
+            width: 90%; /* Full width */
+            margin: 10px 0; /* Space between inputs */
+            padding: 10px; /* Padding for inputs */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Rounded corners */
+        }
+
+        button {
+            background-color: #4CAF50; /* Green button background */
+            color: white; /* White button text */
+            padding: 10px 20px; /* Button padding */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor */
+        }
+
+        button:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        a {
+            color: #4CAF50; /* Green color for links */
+            text-decoration: none; /* Remove underline */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+        <div class="contact-section">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions, feedback, or inquiries, feel free to reach out to us!</p>
+            <form action="#" method="POST"> <!-- Action can be adjusted based on your backend setup -->
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <button onclick="location.href='index.html'">Back to Home</button> <!-- Add a button to go back to the main page -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Stocks Market Predictor. All Rights Reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
